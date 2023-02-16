@@ -27,6 +27,7 @@ public class ClearCounter : BaseCounter
             else
             {
                 // If there is a kitchen object on the counter and the player does not have a kitchen object
+
                 GetKitchenObject().SetKitchenObjectParent(player);
             }
         }
