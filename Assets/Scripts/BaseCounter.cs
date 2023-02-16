@@ -12,6 +12,12 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
         Debug.LogError("Nevev Invoke");
     }
 
+    public virtual void InteractAlternate(Player player)
+    {
+        Debug.LogError("Nevev Invoke");
+
+    }
+
     public Transform getKitchenObjectFollowTransform()
     {
         return counterTopPoint;
